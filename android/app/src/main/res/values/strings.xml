@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PodHouz</string>
+     <string name="facebook_app_id">1523458767976650</string>
+    <string name="facebook_client_token">d157902d0bff64b4c1daaf26e32852e9</string>
 </resources>

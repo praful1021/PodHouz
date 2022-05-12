@@ -1,0 +1,30 @@
+//react import
+import {Dimensions} from 'react-native';
+//third-party library import
+
+const {width: SCREEN_WIDTH, height: SCREEN_HEIGHT} = Dimensions.get('window');
+
+//All status code for API response
+const STATUS_CODES = {
+  OK: 200,
+  CREATED: 201,
+  NO_CONTENT: 204,
+  NOT_MODIFIED: 304,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  METHOD_NOT_ALLOWED: 405,
+  GONE: 410,
+  PRECONDITION_FAILED: 412,
+  UNSUPPORTED_MEDIA_TYPE: 415,
+  UNPROCESSABLE_ENTITY: 422,
+  TO_MANY_REQUESTS: 429,
+  INTERNAL_SERVER_ERROR: 500,
+  SERVICE_UNAVAILABLE: 503,
+  VALIDATION: 100,
+  BAD_GATEWAY: 502,
+  NOT_IMPLIMENTED: 501,
+};
+
+export {SCREEN_HEIGHT, SCREEN_WIDTH, STATUS_CODES};
